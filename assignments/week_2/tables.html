@@ -1,0 +1,111 @@
+
+<!doctype html>
+
+<!--html element holds everything.It should only have two children: head and body. -->
+<html lang="en">
+
+<!-- The head section is for metadata of the HTML document -->
+<head>
+
+  <!-- What character set we are using in the webpage. -->
+  <meta charset="utf-8">
+
+  <!-- Text for the tab or window. -->
+  <title><!-- Your Webpage Tab Text --></title>
+
+  <!-- generic metadata for webpage -->
+  <meta name="description" content="Description of your webpage.">
+  <meta name="author" content="Author of webpage">
+
+  <style>
+  /* CSS goes between the style tags. */
+  table {
+      border: solid 1px black;
+      padding: 100px;
+      background-color: bisque;
+      border-radius: 10px;
+  }
+  td {
+      border: dashed 1px grey;
+      background-color: lightgrey;
+      color: fuchsia;
+      padding: 5px;
+  }
+  </style>
+
+</head>
+
+<body>
+
+  <!-- All of your HTML elements go between the body tags -->	
+    <!-- Table Example
+    <table> = contains the whole table
+        <tr> = represents a table row
+            <td> = represents a(n) table data
+                 -->
+
+<!-- 
+    Homework:Learn and use the following HTML elements:
+    <thead>
+    <tbody>
+    <th>
+-->
+<table>
+    <thead>
+        <tr>
+            <th scope="col">Supplies</th>
+            <th scope="col">Quantity</th>
+        </tr>
+    </thead>
+    <tbody>
+        <tr>
+            <th scope="row">Paper</th>
+            <td>200</td>
+        </tr>
+        <tr>
+            <th scope="row">Pencils</th>
+            <td>500</td>
+        </tr>
+        <tr>
+            <th scope="row">Markers</th>
+            <td>1000</td>
+        </tr>
+    </tbody>
+</table>
+
+
+<table>
+    <tr>
+        <td>Name</td>
+        <td>Last Name</td>
+        <td>Email</td>
+    </tr>
+    <tr>
+      <td>Joe</td>
+      <td>Matthew</td>
+      <td>joe234@yahoo.com</td>  
+    </tr>
+    <tr>
+        <td>Sara</td>
+        <td>Till</td>
+        <td>sara@gmail.com</td>
+    </tr>
+    <tr>
+        <td>Hugo</td>
+        <td>Hen</td>
+        <td>hugo@boss.com</td>
+    </tr>
+    <tr>
+        <td>Ian</td>
+        <td>Mooves</td>
+        <td>ian@motto.com</td>
+    </tr>
+</table>
+
+  
+
+  <script>
+  /* JavaScript goes in between the script tags. */
+  </script>
+</body>
+</html>
