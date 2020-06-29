@@ -1,0 +1,128 @@
+<!doctype html>
+
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+
+  <!--This appears for the webpage when hovering-->
+  <title>Guide Example</title>
+  <meta name="description" content="Description of your webpage.">
+  <meta name="author" content="Author of webpage">
+
+  <style>
+  /* CSS goes between the style tags. */
+  body {
+  background-color: black;
+}
+  
+  p {
+    color:lawngreen;
+    background-color:black;
+    font-family: "Arial";
+    font-size: 18px;
+    text-align: center;
+    width: 600px;
+    margin-top: 40px;
+    margin-bottom: 40px;
+    margin-left: auto;
+    margin-right: auto;
+  }
+
+/* How to justify a single line of text. */
+  h1 {
+    color:white;
+    text-align: center;
+    font-size:51px;
+    width: 610px;
+    margin-left: auto;
+    margin-right: auto;
+    font-family: "Arial";
+  }
+
+  h2 {
+    color:white;
+    border-width: 5px;
+    border-style: solid;
+    border-color: white;
+    width: 600px;
+    border-radius: 18px;
+    text-align: center;
+    margin-left: auto;
+    margin-right: auto;
+    font-family: cursive;
+    padding-top: 10px;
+    padding-bottom: 10px;
+  }
+  </style>
+
+</head>
+
+<body>
+
+<h1>HTML PART ONE GUIDE</h1>
+
+  <p>This outline is a work-in-progress, and may change in the future – medatech@medasf.org </p>
+  
+  <p>Mission Economic Development Agency | Instructor Eduardo Garcia
+</p>
+    
+
+<h2>HTML</h2>
+<p>HTML is used to describe the content of web pages. HTML stands for HyperText Markup Language, and it is the primary language for websites, along with CSS, and optionally, JavaScript. A webpage is split into two categories: Content and Design. HTML is responsible for the Content, so we will not be working with colors, font sizes or positioning, instead HTML is only used to describe what is displayed on the web page.</p>
+
+<h2>HTML SYNTAX </h2>
+<p>Just like we put together letters into groups to create words, HTML is grouped up into “tags”, a tag has a keyword that is surrounded by angle brackets ( &lt; and &gt; ). There are certain keywords that make up the language of HTML.</p>
+
+
+<p>Correctly written HTML tags:</p>
+<ul>
+    <li>&#60;html&#62;</li>
+    <li>&#60;blockquote&#62;</li>
+    <li>&#60;body&#62;</li>
+</ul>
+
+<p>Incorrectly written HTML tags:</p>
+<ul>
+    <li>&#62;html&#60;</li>
+    <li>&#60;blockquote</li>
+    <li>body</li>
+</ul>
+
+
+<p>A tag is usually part of larger group of code called an HTML element. An element starts with a “opening” tag, followed by the content, and ends with a “closing” tag. Keep in mind that some HTML tags are “self-closing” tags and do not need a closing tag, refer to the image tag for an example.</p>
+
+<p>Note: The keyword for the opening and closing tag must match, with the closing tag starting with a forward slash ( / ). If they mismatch or miss the forward slash, the computer will think you did not end or close the HTML element and will cause web page content issues!</p>
+
+
+<p>Correctly written HTML elements:</p>
+<ul>
+    <li>&#60;blockquote&#62;This is the most immportant quote ever! &#60;&#47;blockquote&#62;</li>
+    <li>&#60;p&#62;This is a paragraph&#60;&#47;p&#62;</li>
+    <li>&#60;h1&#62;This is the title of the section&#60;&#47;h1&#62;</li>
+</ul>
+
+
+<p>Incorrectly written HTML elements:</p>
+<ul>
+    <li>&#60;blockquote&#62;This is the most immportant quote ever! &#60;&#47;block&#62;</li>
+
+    <p>notice the mismatching tags! Also “block” is not a valid HTML element</p>
+
+    <li>&#60;p&#62;This is a paragraph&#60;p&#62;</li>
+
+    <p>notice the closing tag is missing the forward slash, the computer will think you started ANOTHER p tag!</p>
+
+    <li>&#60;h1&#62;This is the title of the section&#60;&#47;H1&#62;</li>
+
+    <p>while it seems both tags match, the closing tag is not the same as the opening tag! Guess why!
+    </p>
+</ul>
+
+<!--Some character codes. Use website for more.-->
+<p>&copy; &reg; &para; &deg;</p>
+
+  <script>
+  /* JavaScript goes in between the script tags. */
+  </script>
+</body>
+</html>
