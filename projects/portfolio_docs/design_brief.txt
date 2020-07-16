@@ -1,0 +1,67 @@
+A) I will be using a dark grey background with a white/cream color for the text. My header will consist of a brown color with the link text being a light blue. I chose these colors because it provides a cafe feeling, and it will also blend with the images that I've chosen.
+
+1.HOME (ABOUT ME)
+-Who I am
+My name is Douglas Snoddy Jr and I am an aspiring Web Developer out of Oakland, California. I currently work at Mission High School in San Francisco, CA as a paraeducator.
+I am a team player and have lots of patience as well as being detail oriented. I have a passion to keep learning and am organized. When faced with problems I communicate effectively with my coworkers.
+
+-What I hope to do
+My plan is to continue my learning and become a better developer personally and professionally.Every day is a chance to improve one's self and learn something new. 
+
+ On my free time I enjoy playing video games and spending time with family. In addition, I enjoy going to the gym and traveling. So far I have been to New York and Boston. 
+My next steps are to  get my passport and travel outside of the country. I also  utilize my free time by continuing to code.
+
+-Skills
+Microsoft Word
+
+
+
+2.PROJECTS PAGE
+I will continue to add to my projects as I continue learning
+-Hobby page along with the languages used
+
+
+
+3.CONTACT PAGE
+-I will respond within 1-2 days.
+-Name (First and last Name)
+-Email
+-Message
+
+
+EXAMPLE PORTFOLIO WEBSITES
+1.https://mattfarley.ca/
+
+Pros
+-simple and all on one page
+-social media uses at the bottom of the page with icons
+-anchor tags to take you to a different page
+
+Cons
+-"Say hello" is the contact page 
+
+2.https://ianlunn.co.uk/
+Pros
+-Navigation bar with name at top
+-photo on bottom of page with how to  contact and related resources
+
+Cons
+-repeat of prjoect names
+
+3. https://benadam.me/project-list.html
+Pros
+-simple layout
+-option to email him on each page
+
+Cons
+-tons of white space 
+-not a variety of colors
+
+Images
+-https://www.pexels.com/photo/time-lapse-photo-of-stars-on-night-924824/
+-https://www.pexels.com/photo/brick-brickwall-brickwork-cement-276514/
+
+
+
+
+
