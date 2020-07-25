@@ -1,91 +1,52 @@
-// Math Operators;
-// +, -, *, /
-//String Operator
-// + (concatenation)
+var oneValue = 800;
+
+oneValue = 500;
+
+// An JavaScript Array is described using the sqaure brackets symbols, and eah value within should be split by a  comma except for the last value.
+var days = [
+    "monday",
+    "tuesday",
+    "wednesday",
+    "thursday",
+    "friday",
+    "saturday",
+    "sunday"
+];
+
+var randomArray = [100, "hello", true]
+
+var multiDimensionalArray = [
+    [10, 20],
+    [100, 200]
+];
+
+console.log(days[3]);
+console.log([5]);
+
+days[2] = "whednesday"
+
+console.log(days)
 
 
-/*
-Everything
-in here
-is a comment.
-*/
+function addArrray(array1, array2) {
 
-// Conditional Operators
-// All conditional operations tend to end up beinga boolean.
+    var newArray = [
 
-/*
-INDEPENDENT OF DATA TYPES
-== equal to
-< lesser than
-> greater than
-!= (Not equal to)
-! (reverses a boolean) !true == false !false == true
+    ][array1[] + array2[0]],
+        array1[0]+ array2[0],
+            array1[1] + array2[1]
+]
 
-<= lesser than or equal
->=greater than or equal, do not reverse characters as => is arrow function
-
-DEPENDENT OF DATA TYPES
-=== both are equal and are the same data type
-!==
-
-*/
-
-var data1 = 10;
-var data2 = "10"; //var data2 = parseInt("10"); // parseFloat() to include periods as decimals.
-
-console.log();
-parseInt();
-
-// Type Coercion
-
-if (data1 === data2) {
-    console.log("The condition was true");
-} else {
+    return newArray;
 
 }
 
-// Ternary Operator
-// condition ? true code : false code;
+var firstArray = [1, 10];
+var secondArray = [9, 90];
+var sumArray = addArrays(firstArray, secondArray);
 
-var isItTrue = (data1 == data2) ? "hello" : "goodbye";
+console.log(sumArray);
 
-console.log(isItTrue);
+days[10] = "superday";
 
-var isItTrue2;
-if (false) {
-    isItTrue2 = "hello";
-} else {
-    isItTrue2 = "goodbye";
-}
-
-console.log(isItTrue);
-// Ternary Operator END
-
-//Functions
-function sayHelloThreeTimes() {
-    console.log("hello");
-    console.log("hello");
-    console.log("hello");
-}
-
-function sayGoodByeTwoTimes() {
-    console.log("goodbye!");
-    console.log("goodbye!");
-}
-
-function sayHelloNineTimes() {
-    sayHelloThreeTimes();
-    sayHelloThreeTimes();
-    sayHelloThreeTimes();
-}
-
-sayHelloThreeTimes();
-console.log("How are you doing");
-
-
-
-sayHelloThreeTimes();
-sayHelloThreeTimes();
-
-//END of FUNCTIONS
-
+console.log(days);

@@ -1,3 +1,7 @@
+* {
+    box-sizing: border-box;
+}
+
 body  {
 background-color: #474853;
 margin: 0;
@@ -16,13 +20,10 @@ h2 {
     color: #fffdd0;
 }
 
-.h2 ul li {
-    color: #fffdd0;
-}
 
 header {
     margin: auto;
-    width: 100%;
+    width: 100px;
     background-color: #844D36;
     padding: 10px;
 }
@@ -46,6 +47,17 @@ header {
     width: 20%;
     position: absolute;
     top: 60%;
+    right: 16px;
+}
+
+.brickwall {
+    clear: right;
+    float: right;
+    margin: 5px;
+    height: 40%;
+    width: 20%;
+    position: absolute;
+    top: 120%;
     right: 16px;
 }
 
@@ -85,6 +97,10 @@ p {
     width: 20em;
     color: #86b3d1;
     font-weight: bold;
+}
+
+#h21 ul li {
+    color: #fffdd0;
 }
 
 .icons2 {
@@ -208,3 +224,93 @@ text-align: center;
 }
 
 
+#footer3 {
+    text-align: left;
+    position: absolute;
+    left: 0px;
+    bottom: 0px;
+    height: 100px;
+    width: 100%;
+    background: black;
+    margin-bottom: 0px;
+}
+
+.icons3 {
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.icons3 a {
+height: 50px;
+    width: 50px;
+    background-color: #f5f6fa;
+    border-radius: 50px;
+    text-align: center;
+    margin: 10px;
+    line-height: 110px;
+    box-shadow: 1px 4px 2px 2px #dcdde1
+}
+
+.icons3 a i {
+    transition: scale(1.4);
+}
+
+#largebox {
+    width: 800px;
+    height: 350px;
+    padding-top: 50px;
+    padding-left: 10px;
+    padding-right: 10px;
+    display: inline-flex;
+    margin-left: 20%;
+    justify-content: center;
+}
+
+#box1 {
+    height: 200px;
+    width: 250px;
+    background-color: white;
+    float: left;
+}
+
+#largebox #box1 a {
+    text-decoration: none;
+    position: absolute;
+    top: 170px;
+    left: 370px;
+    font-size: 24px;
+    color: #0097e6;
+}
+
+#largebox #box1 a:hover {
+    color: #aaa0a0;
+}
+
+#box2 {
+    height: 200px;
+    width: 250px;
+    background-color: #aaa0a0;
+    float: left;
+}
+
+#largebox #box2 a {
+    text-decoration: none;
+    position: absolute;
+    top: 170px;
+    left: 600px;
+    font-size: 24px;
+    color:white;
+}
+
+#largebox #box2 a:hover {
+    color: #0097e6;
+}
+
+#box3 {
+    height: 200px;
+    width: 250px;
+    background-color: #0097e6;
+    float: right;
+}
